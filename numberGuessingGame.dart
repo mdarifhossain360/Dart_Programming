@@ -1,12 +1,9 @@
 import 'dart:io';
 import 'dart:math';
 void main(){
-  //guessNumber();
-  for(int i=0;i<=100;i=i+9){
-    print(i);
-  }
+  guessNumber();
 }
-/*void guessNumber(){
+void guessNumber(){
   int score=0;
    Random random = Random();
   while (true) {
@@ -39,4 +36,3 @@ void main(){
     }
   }
 }
-*/
